@@ -22,10 +22,8 @@
         }
 
         #cookie {
-            width: 200px;
+            width: auto;
             height: 200px;
-            background: url(miscimgs/cookie.png) center center no-repeat;
-            background-size: cover;
             cursor: pointer;
         }
 
@@ -57,7 +55,7 @@
 <body>
     <div id="cookie-container">
         <h1>Cookie Clicker Replica</h1>
-        <div id="cookie"></div>
+        <img id="cookie" src="miscimgs/cookie.png" alt="Cookie Image" onclick="clickCookie()">
         <p id="score">Score: <span id="score-count">0</span></p>
         <button id="click-button">Click the Cookie!</button>
         <button id="upgrade-button">Upgrade Click (Cost: 50)</button>
